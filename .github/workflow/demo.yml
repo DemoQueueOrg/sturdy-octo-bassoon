@@ -1,0 +1,17 @@
+name: Demo
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  timeout_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Run Command
+      run: |
+        echo "Running some commands..."
+        sleep 60  # Sleep for 60 seconds (1 minute)
