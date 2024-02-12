@@ -14,4 +14,4 @@ jobs:
     - name: Run Command
       run: |
         echo "Running some commands..."
-        sleep 20
+        sleep 60
